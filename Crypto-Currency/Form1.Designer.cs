@@ -40,7 +40,9 @@ namespace Crypto_Currency
             this.lblBaseCCY = new System.Windows.Forms.Label();
             this.lblCCY = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,6 +77,7 @@ namespace Crypto_Currency
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.lblBuy);
             this.panel1.Controls.Add(this.lblBaseCCY);
             this.panel1.Controls.Add(this.lblCCY);
@@ -127,6 +130,16 @@ namespace Crypto_Currency
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Crypto_Currency.Properties.Resources.money_exchange;
+            this.pictureBox1.Location = new System.Drawing.Point(197, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(83, 79);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -142,6 +155,7 @@ namespace Crypto_Currency
             this.Text = "Currency-Checker";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,6 +172,7 @@ namespace Crypto_Currency
         private System.Windows.Forms.Label lblBaseCCY;
         private System.Windows.Forms.Label lblCCY;
         private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

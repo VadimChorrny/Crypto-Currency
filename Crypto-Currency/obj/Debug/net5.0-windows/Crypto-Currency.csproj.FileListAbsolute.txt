@@ -16,3 +16,4 @@ C:\Users\vadim_oyanwuw\source\repos\Crypto-Currency\Crypto-Currency\obj\Debug\ne
 C:\Users\vadim_oyanwuw\source\repos\Crypto-Currency\Crypto-Currency\obj\Debug\net5.0-windows\ref\Crypto-Currency.dll
 C:\Users\vadim_oyanwuw\source\repos\Crypto-Currency\Crypto-Currency\obj\Debug\net5.0-windows\Crypto-Currency.pdb
 C:\Users\vadim_oyanwuw\source\repos\Crypto-Currency\Crypto-Currency\obj\Debug\net5.0-windows\Crypto-Currency.genruntimeconfig.cache
+C:\Users\vadim_oyanwuw\source\repos\Crypto-Currency\Crypto-Currency\obj\Debug\net5.0-windows\Crypto_Currency.Properties.Resources.resources
